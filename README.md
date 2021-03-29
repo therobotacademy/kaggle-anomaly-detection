@@ -45,4 +45,6 @@ Enter your token and change the password.
 - Gists here https://gist.github.com/abhishek-Kumar009 
 - Dataset from [Github](https://github.com/abhishek-Kumar009/Machine-Learning/tree/master/AnomalyDetectionScratch)
 
-## 4.2 
+## 4.2 Detecting outliers using KNN algorithm
+Based on [this tutorial](https://www.geeksforgeeks.org/machine-learning-for-anomaly-detection/)
+ - Using Python `pyod`packages for KNN analysis
