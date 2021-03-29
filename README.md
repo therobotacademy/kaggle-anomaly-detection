@@ -39,4 +39,10 @@ Enter your token and change the password.
 `docker exec -it kaggle bash`
 
 # 4. ANOMALY DETECTION ANALYSIS
-...
+## 4.1 Multivariate Gaussian Analisis
+[Wondering how to build an anomaly detection model?](https://towardsdatascience.com/wondering-how-to-build-an-anomaly-detection-model-87d28e50309)
+
+- Gists here https://gist.github.com/abhishek-Kumar009 
+- Dataset from [Github](https://github.com/abhishek-Kumar009/Machine-Learning/tree/master/AnomalyDetectionScratch)
+
+## 4.2 
