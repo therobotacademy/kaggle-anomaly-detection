@@ -39,12 +39,29 @@ Enter your token and change the password.
 `docker exec -it kaggle bash`
 
 # 4. ANOMALY DETECTION ANALYSIS
-## 4.1 [`./MultivariateGaussian`] Multivariate Gaussian Analisis
-[Wondering how to build an anomaly detection model?](https://towardsdatascience.com/wondering-how-to-build-an-anomaly-detection-model-87d28e50309)
+## S1.A [`./`] Z-score for anomaly detection
+Source tutorial: [Z-score for anomaly detection](https://towardsdatascience.com/z-score-for-anomaly-detection-d98b0006f510)
+
+**DATASET**: Gearbox fault raw signals `./input/gearbox-fault-diagnosis/`
+
+> **Notebook:** `Zscore.GearboxFault-anomaly_detection.ipynb`
+
+## S1.B [`./MultivariateGaussian`] Multivariate Gaussian Analisis
+Source tutorial: [Wondering how to build an anomaly detection model?](https://towardsdatascience.com/wondering-how-to-build-an-anomaly-detection-model-87d28e50309)
 
 - Gists here https://gist.github.com/abhishek-Kumar009 
 - Dataset from [Github](https://github.com/abhishek-Kumar009/Machine-Learning/tree/master/AnomalyDetectionScratch)
 
-## 4.2 Detecting outliers using KNN algorithm
-Based on [this tutorial](https://www.geeksforgeeks.org/machine-learning-for-anomaly-detection/)
+> **Notebook:** `MGD.server-anomaly_detection.ipynb`
+
+## S2.A Detecting outliers using KNN algorithm
+Source tutorial: [gearbox dataset requires to compute standard deviation for equal size samples of acceleration signal](https://www.geeksforgeeks.org/machine-learning-for-anomaly-detection/)
  - Using Python `pyod` packages for KNN analysis
+> **Notebook with dummy data:** `pyodKNN.DummyDataset-anomaly_detection.ipynb`
+
+**DATASET**: Gearbox fault gearbox of standard deviation of equal size samples of acceleration signal `./input/gearbox-fault-diagnosis/stdev/`
+
+> This dataset is computed here:
+- `dataset.GearboxFault-stdev.ipynb`
+
+> **Notebook:** `pyodKNN.GearboxFault-anomaly_detection.ipynb`
