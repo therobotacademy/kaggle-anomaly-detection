@@ -39,7 +39,7 @@ Enter your token and change the password.
 `docker exec -it kaggle bash`
 
 # 4. ANOMALY DETECTION ANALYSIS
-## 4.1 Multivariate Gaussian Analisis
+## 4.1 [`./MultivariateGaussian`] Multivariate Gaussian Analisis
 [Wondering how to build an anomaly detection model?](https://towardsdatascience.com/wondering-how-to-build-an-anomaly-detection-model-87d28e50309)
 
 - Gists here https://gist.github.com/abhishek-Kumar009 
@@ -47,4 +47,4 @@ Enter your token and change the password.
 
 ## 4.2 Detecting outliers using KNN algorithm
 Based on [this tutorial](https://www.geeksforgeeks.org/machine-learning-for-anomaly-detection/)
- - Using Python `pyod`packages for KNN analysis
+ - Using Python `pyod` packages for KNN analysis
