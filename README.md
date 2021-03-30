@@ -52,7 +52,21 @@ Source tutorial: [Wondering how to build an anomaly detection model?](https://to
 - Gists here https://gist.github.com/abhishek-Kumar009 
 - Dataset from [Github](https://github.com/abhishek-Kumar009/Machine-Learning/tree/master/AnomalyDetectionScratch)
 
+**DATASET**: Servers' throughput (mb/s) & latency (ms)
+- `anomalyData.mat` & `anomalyDataTest.mat`
+
 > **Notebook:** `MGD.server-anomaly_detection.ipynb`
+
+## S1.C Mixture Gaussian models
+Source tutorial: [Anomaly Detection in Python with Gaussian Mixture Models](https://towardsdatascience.com/understanding-anomaly-detection-in-python-using-gaussian-mixture-model-e26e5d06094b)
+
+We can see that Multivariate Gaussian performs terribly on multiple clusters.
+It fails to recognize the outliers.
+That’s why we have moved to the Mixture of Gaussians models.
+
+- Same dataset as above
+
+> **Notebook:** `GaussianMixtureModels.server-anomaly_detection.ipynb`
 
 ## S2.A Detecting outliers using KNN algorithm
 Source tutorial: [gearbox dataset requires to compute standard deviation for equal size samples of acceleration signal](https://www.geeksforgeeks.org/machine-learning-for-anomaly-detection/)
