@@ -68,7 +68,7 @@ That’s why we have moved to the Mixture of Gaussians models.
 
 > **Notebook:** `GaussianMixtureModels.server-anomaly_detection.ipynb`
 
-## S2.A Detecting outliers using KNN algorithm
+## S2.A Detecting outliers using KNN algorithm: Gearbox dataset
 Source tutorial: [gearbox dataset requires to compute standard deviation for equal size samples of acceleration signal](https://www.geeksforgeeks.org/machine-learning-for-anomaly-detection/)
  - Using Python `pyod` packages for KNN analysis
 > **Notebook with dummy data:** `pyodKNN.DummyDataset-anomaly_detection.ipynb`
@@ -79,3 +79,16 @@ Source tutorial: [gearbox dataset requires to compute standard deviation for equ
 - `dataset.GearboxFault-stdev.ipynb`
 
 > **Notebook:** `pyodKNN.GearboxFault-anomaly_detection.ipynb`
+
+## S2.B: NASA Bearing Dataset: EDA & PCA analysis
+Using dataset of experiment 2. Raw data is proccessed in Kaggle:
+ - (private) https://www.kaggle.com/brjapon/nasa-bearing-dataset-merging
+
+> **Notebook:** `NASAbearingDataset-EDA_PCA.ipynb`
+
+## S2.C Detecting outliers using KNN algorithm: NASA bearing dataset
+- Applying the same analysis in S2.A
+- Same dataset as in S2.B
+- Analysis is based on the PCA dimensionality reduction computed in S2.B
+
+> **Notebook:** `NASAbearingDataset-pyodKNN.ipynb`
