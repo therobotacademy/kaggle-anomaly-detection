@@ -46,7 +46,7 @@ Source tutorial: [Z-score for anomaly detection](https://towardsdatascience.com/
 
 > **Notebook:** `Zscore.GearboxFault-anomaly_detection.ipynb`
 
-## S1.B [`./MultivariateGaussian`] Multivariate Gaussian Analisis
+## [WITH ERRORS, SOLVED IN S1.D] S1.B [`./MultivariateGaussian`] Multivariate Gaussian Analisis
 Source tutorial: [Wondering how to build an anomaly detection model?](https://towardsdatascience.com/wondering-how-to-build-an-anomaly-detection-model-87d28e50309)
 
 - Gists here https://gist.github.com/abhishek-Kumar009 
@@ -60,13 +60,18 @@ Source tutorial: [Wondering how to build an anomaly detection model?](https://to
 ## S1.C Mixture Gaussian models
 Source tutorial: [Anomaly Detection in Python with Gaussian Mixture Models](https://towardsdatascience.com/understanding-anomaly-detection-in-python-using-gaussian-mixture-model-e26e5d06094b)
 
-We can see that Multivariate Gaussian performs terribly on multiple clusters.
-It fails to recognize the outliers.
-That’s why we have moved to the Mixture of Gaussians models.
+We can see that Multivariate Gaussian performs not quite good.
 
 - Same dataset as above
 
 > **Notebook:** `GaussianMixtureModels.server-anomaly_detection.ipynb`
+
+## S1.D Mixture Gaussian models
+Source tutorial: [Anomaly Detection in Python with Gaussian Mixture Models](https://towardsdatascience.com/understanding-anomaly-detection-in-python-using-gaussian-mixture-model-e26e5d06094b)
+
+- Same dataset as above
+
+> **Notebook:** `GMM.server-anomaly_detection.ipynb`: GMM testing against validation set
 
 ## S2.A Detecting outliers using KNN algorithm: Gearbox dataset
 Source tutorial: [gearbox dataset requires to compute standard deviation for equal size samples of acceleration signal](https://www.geeksforgeeks.org/machine-learning-for-anomaly-detection/)
