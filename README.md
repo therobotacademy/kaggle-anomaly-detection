@@ -46,18 +46,19 @@ Source tutorial: [Z-score for anomaly detection](https://towardsdatascience.com/
 
 > **Notebook:** `Zscore.GearboxFault-anomaly_detection.ipynb`
 
-## [WITH ERRORS, SOLVED IN S1.D] S1.B [`./MultivariateGaussian`] Multivariate Gaussian Analisis
+## S1.B [`./MultivariateGaussian`] Multivariate Gaussian Analisis
 Source tutorial: [Wondering how to build an anomaly detection model?](https://towardsdatascience.com/wondering-how-to-build-an-anomaly-detection-model-87d28e50309)
 
 - Gists here https://gist.github.com/abhishek-Kumar009 
 - Dataset from [Github](https://github.com/abhishek-Kumar009/Machine-Learning/tree/master/AnomalyDetectionScratch)
+- [WITH ERRORS, SOLVED IN S1.D] 
 
 **DATASET**: Servers' throughput (mb/s) & latency (ms)
 - `anomalyData.mat` & `anomalyDataTest.mat`
 
 > **Notebook:** `MGD.server-anomaly_detection.ipynb`
 
-## S1.C Mixture Gaussian models
+## S1.C [`./MultivariateGaussian`] Mixture Gaussian models
 Source tutorial: [Anomaly Detection in Python with Gaussian Mixture Models](https://towardsdatascience.com/understanding-anomaly-detection-in-python-using-gaussian-mixture-model-e26e5d06094b)
 
 We can see that Multivariate Gaussian performs not quite good.
@@ -66,12 +67,13 @@ We can see that Multivariate Gaussian performs not quite good.
 
 > **Notebook:** `GaussianMixtureModels.server-anomaly_detection.ipynb`
 
-## S1.D Mixture Gaussian models
-Source tutorial: [Anomaly Detection in Python with Gaussian Mixture Models](https://towardsdatascience.com/understanding-anomaly-detection-in-python-using-gaussian-mixture-model-e26e5d06094b)
+## S1.D [`./MultivariateGaussian`] Mixture Gaussian models
+Same source tutorial as above
 
+- This is the clean & improved version: GMM testing against validation set
 - Same dataset as above
 
-> **Notebook:** `GMM.server-anomaly_detection.ipynb`: GMM testing against validation set
+> **Notebook:** `server-gaussianmodel-anomalydetection.ipynb`
 
 ## S2.A Detecting outliers using KNN algorithm: Gearbox dataset
 Source tutorial: [gearbox dataset requires to compute standard deviation for equal size samples of acceleration signal](https://www.geeksforgeeks.org/machine-learning-for-anomaly-detection/)
