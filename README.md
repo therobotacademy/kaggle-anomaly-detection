@@ -99,3 +99,9 @@ Using dataset of experiment 2. Raw data is proccessed in Kaggle:
 - Analysis is based on the PCA dimensionality reduction computed in S2.B
 
 > **Notebook:** `NASAbearingDataset-pyodKNN.ipynb`
+
+## S3 [`./PCA-MDistance_outliers_detection`] Detecting outliers using PCA plus Mahalanobis distance
+One notebook for each experiment:
+- `nasabearingdataset-pca-outliers-detection_SetNo1.ipynb` for Set No.1
+- `nasabearingdataset-pca-outliers-detection_SetNo2.ipynb` for Set No.2
+- `nasabearingdataset-pca-outliers-detection_SetNo3.ipynb` for Set No.3
